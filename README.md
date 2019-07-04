@@ -12,7 +12,7 @@ and then:
 npm test
 ```
 
-and then:
++ Allure:
 
 ```bash
 npm i allure-commandline
