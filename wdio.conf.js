@@ -3,6 +3,11 @@ exports.config = {
     specs: [
         './test/specs/**/*.js'
     ],
+    reporters: [['allure', {
+        outputDir: 'allure-results',
+        disableWebdriverStepsReporting: true,
+        disableWebdriverScreenshotsReporting: true,
+    }]],
     maxInstances: 1,
     capabilities: [{
         maxInstances: 1,
