@@ -1,10 +1,34 @@
-describe('TrueAutomation.IO page', () => {
-  it('Test example', () => {
-    browser.setTimeout({ 'implicit': 5000 });
+describe('First suit', () => {
+    beforeEach(() => {
+        browser.setTimeout({'implicit': 5000});
+        browser.url('https://trueautomation.i');
+        throw new Error();
+    });
 
-    browser.url('https://trueautomation.io');
-    $("a.login-btn").click();
-    $("div.sign-up-container > a").click();
-    $("[name='email']").setValue('your@gmail.com');
-  });
+    it('Test example 1', () => {
+        $("a.login-btn").click();
+        $("div.sign-up-container > a").click();
+        $("[name='email']").setValue('your@gmail.com');
+    });
+
+});
+describe('Second suit', () => {
+    beforeEach(() => {
+        browser.setTimeout({'implicit': 5000});
+        browser.url('https://trueautomation.io');
+    });
+
+    it('Test example 2', () => {
+        throw new Error("pizdec");
+    });
+
+    it('Test example 3', () => {
+
+    });
+
+    it('Test example 4', () => {
+        $("a.login-btn").click();
+        $("div.sign-up-container > a").click();
+        $("[name='email']").setValue('your@gmail.com');
+    });
 });
