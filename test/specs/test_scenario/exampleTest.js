@@ -1,3 +1,5 @@
+const assert = require('assert');
+
 describe('First suit', () => {
     beforeEach(() => {
         browser.setTimeout({'implicit': 5000});
@@ -24,6 +26,10 @@ describe('Second suit', () => {
 
     it('Test example 3', () => {
 
+    });
+
+    it('Test example 5', () => {
+        assert.equal(1,2);
     });
 
     it('Test example 4', () => {

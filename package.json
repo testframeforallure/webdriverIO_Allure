@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "allure-commandline": "^2.9.0",
+    "assert": "^2.0.0",
     "webdriverio": "^5.3.0"
   }
 }
