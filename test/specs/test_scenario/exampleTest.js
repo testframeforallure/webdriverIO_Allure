@@ -19,7 +19,7 @@ describe('Second suit', () => {
     });
 
     it('Test example 2', () => {
-        throw new Error("pizdec");
+        throw new Error("tut dolzna byt oshibka");
     });
 
     it('Test example 3', () => {
